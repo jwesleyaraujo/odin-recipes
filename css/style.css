@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Roboto:wght@300&family=Ubuntu&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    background-color: rgb(240, 228, 228);
+    font-family: 'Ubuntu', sans-serif;
+    color: black;
+
+}
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    padding: 20px;
+    height: auto;
+    align-items: center;
+}
+
+.list {
+    display: flex;
+    font-weight: bold;
+}
+
+.list>li {
+    width: 80px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    font-size: 40px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.container>ul {
+    padding: 20px 0;
+}
+
+a:hover {
+    font-size: 18px;
+}
